@@ -1,0 +1,174 @@
+:root {
+  font-size: 12px; }
+
+   
+body {
+  
+  background-image: url("custom_background.jpg");
+  background-attachment:fixed;
+}
+ .heading {
+
+  font-style: italic;
+  color: white;
+  font-size: 3rem;
+  margin-left: 1rem;
+}
+
+.sub-heading{
+  font-style:bold;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.image{ 
+ 
+ float: right;
+
+ 
+}
+
+.first-block{
+
+  margin: 10vw;
+  padding: 10vw;
+  font-size:2rem;
+  color:white;
+  font-style: italic;
+  background-color: black;
+  
+ 
+
+
+}
+
+ .sb-subheading{
+font-style: italic;
+background:white;
+color:black;
+font-size:2rem;
+margin:1vw;
+vertical-align:center;
+ }
+
+.second-block{
+  margin: 10vw;
+  font-size:2rem;
+  padding: 10vw;
+  font-style: italic;
+  background-color: #808080
+}
+
+ .tb-subheading{
+font-style: italic;
+background:white;
+color:black;
+font-size:2rem;
+margin:1vw;
+ }
+ 
+.third-block{
+ margin: 10vw;
+  font-size:2rem;
+  padding: 10vw;
+  color:white;
+  font-style: italic;
+  background-color:black;
+}
+
+ .fb-subheading{
+font-style: italic;
+background:white;
+color:black;
+font-size:2rem;
+margin:1vw;
+ }
+ 
+.fourth-block{
+ margin: 10vw;
+  font-size:2rem;
+  padding: 10vw;
+  font-style: italic;
+  background-color:#808080;
+
+}
+          
+
+/*@media only screen and (min-width:360px) and (max-width: 672px) {
+
+  .image{
+    order:-1;
+     }
+}*/
+
+ 
+@media screen and (min-width: 360px) and (max-width: 759px) {
+
+
+    .image {
+
+      order:-1;  
+      width:80vw;
+  
+    }
+    .first-block {
+   
+        font-size: 1.25rem;
+    }
+     .sb-subheading{
+      font-size:1rem;
+     }
+    .second-block {
+   
+        font-size: 1.25rem;
+    }
+    .tb-subheading{
+      font-size:1rem;
+     }
+    .third-block {
+   
+        font-size: 1.25rem;
+    }
+    .fb-subheading{
+      font-size:1rem;
+     }
+   .fourth-block {
+   
+        font-size: 1.25rem;
+    }
+
+}
+
+@media screen and (max-width: 361px) {
+     .image {
+
+      order:-1;  
+      width:80vw;
+  
+    }
+    .first-block {
+   
+        font-size: 1.25rem;
+    }
+     .sb-subheading{
+      font-size:1rem;
+     }
+    .second-block {
+   
+        font-size: 1.25rem;
+    }
+    .tb-subheading{
+      font-size:1rem;
+     }
+    .third-block {
+   
+        font-size: 1.25rem;
+    }
+    .fb-subheading{
+      font-size:1rem;
+     }
+   .fourth-block {
+   
+        font-size: 1.25rem;
+    }
+}
